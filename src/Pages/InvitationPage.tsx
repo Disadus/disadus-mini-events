@@ -1,7 +1,7 @@
 import { Transition } from "@headlessui/react";
 import { Fragment, useContext } from "react";
-import CommunityContext from "../React/Contexts/CommunityContext";
-import UserContext from "../React/Contexts/UserContext";
+import CommunityContext from "../Helpers/Contexts/CommunityContext";
+import UserContext from "../Helpers/Contexts/UserContext";
 
 export const InvitationPage = () => {
   const user = useContext(UserContext);
